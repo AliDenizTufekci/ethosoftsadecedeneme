@@ -48,27 +48,6 @@ not:herhangi bir +/-/*// işareti olmadan sadece matematiksel operatör kulland�
 18.output:"Basari durumunuz IYI olarak olculmustur."+ "Ayrica net sayiniz " + nets + "'dir ve bos sayiniz de "+ boss + "'dir"
 19.else output:"Basari durumunuz COK IYI olarak olculmustur."+ "Ayrica net sayiniz " + nets + "'dir ve bos sayiniz de "+ boss + "'dir"BİTİR.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ```
 
 ## 5. Akış Şeması
@@ -76,7 +55,41 @@ not:herhangi bir +/-/*// işareti olmadan sadece matematiksel operatör kulland�
 ![Akış Şeması](docs/akis-semasi.png)
 
 ## 6. Başarı Durumu Koşulları
-<!-- Koşulları hangi sırayla ve hangi operatörlerle yazdığınızı, nedenini açıklayın. -->
+<-- eksiler–5	= Geliştirilmeli      //*şablon read.me dosyasında dendiğine göre her ne kadar 0-5 olsa da örneklerde eksili bir sayı da dahil olduğu için sınıra eksileri koymayı daha uygun buldum, zaten altta gördüğünüz üzere programda da bir alt sınır vermedim , zaten geçersizler daha önce ayıklandığı için bir sıkıntı olmazdı. Böylece bütün olası ihtimalleri göz önünde bulundurmuş oldum.//*
+5'ten büyük – 10 =	Orta
+10'dan büyük – 15 =	İyi      
+15'ten büyük – 20 =	Çok iyi
+
+KODLAR:
+eksiler-5 için:
+if ( nets<=5){
+       
+     System.out .println("Basari durumunuz GELISTIRILMELI olarak olculmustur."+ "Ayrica net sayiniz " + nets + "'dir ve bos sayiniz de "+ boss + "'dir");
+       
+   }
+
+5'ten büyük-10 için:
+else if (nets>5 && nets<=10){
+       
+       System.out.println("Basari durumunuz ORTA olarak olculmustur."+ "Ayrica net sayiniz " + nets + "'dir ve bos sayiniz de "+ boss + "'dir");
+   }
+
+10'dan büyük -15 için:
+else if (nets>10 && nets<=15){
+       
+       System.out.println("Basari durumunuz IYI olarak olculmustur."+ "Ayrica net sayiniz " + nets + "'dir ve bos sayiniz de "+ boss + "'dir");
+   }
+
+15'den büyük -20 için :
+
+else {
+       
+    System.out.println("Basari durumunuz COK IYI olarak olculmustur."+ "Ayrica net sayiniz " + nets + "'dir ve bos sayiniz de "+ boss + "'dir");   
+       
+   }
+
+Sebepler :" if" ve "else if " ile yapılanlar, malum çıktılarına uygun bir koşul sunmamı ve bu koşulun doğru olup olmamasına göre o çıktının verilip verilmeyeceğini kontrol etmemi sağlar.
+En sonda sadece "else" ile oluşturduğum ise daha önceki hiçbir koşulun gerçekleşmemesi durumunda (bir başka değişle netlerin 15'ten büyük - 20 olduğu durumlarda ) çıktımı verebilmemi sağlar.-->
 
 
 ## 7. Test Sonuçları
