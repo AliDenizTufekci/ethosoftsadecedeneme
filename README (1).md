@@ -1,6 +1,6 @@
 # Ödev: Deneme Sınavı Değerlendirme Sistemi
 
-> Bu bir ödev şablonudur. Ödevi **yapay zekâ kullanmadan**, kendi başınıza yapmanız beklenir.
+
 
 ## Repo Yapısı
 
