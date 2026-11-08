@@ -96,12 +96,12 @@ En sonda sadece "else" ile oluşturduğum ise daha önceki hiçbir koşulun ger�
 
 | Doğru | Yanlış | Beklenen | Programın sonucu | Doğru mu? |
 |---|---|---|---|---|
-| 20 | 0 | Net 20, Çok iyi | | |
-| 15 | 4 | Net 14, İyi | | |
-| 10 | 8 | Net 8, Orta | | |
-| 5 | 0 | Net 5, Geliştirilmeli | | |
-| 0 | 20 | Net -5, Geliştirilmeli | | |
-| 10 | 10 | Net 7,5, Orta | | |
-| 15 | 10 | Geçersiz giriş | | |
-| 12 | 9 | Geçersiz giriş | | |
-| -1 | 5 | Geçersiz giriş | | |
+| 20 | 0 | Net 20, Çok iyi |Basari durumunuz COK IYI olarak olculmustur.Ayrica net sayiniz 20.0'dir ve bos sayiniz de 0'dir |evet |
+| 15 | 4 | Net 14, İyi |Basari durumunuz IYI olarak olculmustur.Ayrica net sayiniz 14.0'dir ve bos sayiniz de 1'dir |evet|
+| 10 | 8 | Net 8, Orta |Basari durumunuz ORTA olarak olculmustur.Ayrica net sayiniz 8.0'dir ve bos sayiniz de 2'dir |evet |
+| 5 | 0 | Net 5, Geliştirilmeli |Basari durumunuz GELISTIRILMELI olarak olculmustur.Ayrica net sayiniz 5.0'dir ve bos sayiniz de 15'dir |evet |
+| 0 | 20 | Net -5, Geliştirilmeli |Basari durumunuz GELISTIRILMELI olarak olculmustur.Ayrica net sayiniz -5.0'dir ve bos sayiniz de 0'dir |evet |
+| 10 | 10 | Net 7,5, Orta |Basari durumunuz ORTA olarak olculmustur.Ayrica net sayiniz 7.5'dir ve bos sayiniz de 0'dir |evet |
+| 15 | 10 | Geçersiz giriş |Bu iki sayinin en az biri yanlis girilmistir cunku sayilarin toplami 20'den coktur.  |evet |
+| 12 | 9 | Geçersiz giriş |Bu iki sayinin en az biri yanlis girilmistir cunku sayilarin toplami 20'den coktur.  |evet |
+| -1 | 5 | Geçersiz giriş |GECERS�Z DOGRU SAYISI!!!!! |evet |
