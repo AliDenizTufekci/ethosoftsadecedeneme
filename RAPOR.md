@@ -1,27 +1,30 @@
 # Rapor
 
-**Ad Soyad:**
-**Numara:**
+**Ad Soyad:Ali Deniz Tüfekci**
+**Numara:722**
 
 ## 1. Problem Analizi
-<!-- Problemi kendi cümlelerinizle yazın. -->
+<-- Bir deneme sınavı sonuç hesaplama mekanizması , kullanıcıdan doğru sayısı ve yanlış sayısı verilerini ayrı ayrı alıp bunlardan hareketle boş sayısı, net sayısı ve başarı durumu değerlerini hesaplar. Bunları sırasıyla ekrana yansıtır. Ancak değerlerden birinin veya her ikisinin yanlış girilip girilmediğini de ölçer ve eğer bir yanlışlık yakalarsa uyarı verir.   -->
 
 
 ## 2. Girdi - İşlem - Çıktı
 
 **Girdiler:**
--
+-TEST:girdi int ds:13 , girdi int ys:5 
 
 **İşlemler:**
--
+-TEST:ilk önce ds ve ys girdilerini alır ve uygunluklarını (0'dan küçük ya da 20'den büyük olup olmama durumlarını) ölçer. Uygunlarsa (ki öyleler) önce boş sayısını (int boss değişkenini) , sonra net sayısını (double nets değişkenini) hesaplar ve nets değişkeninin ne olduğunu göz önünde bulundurarak if , else if ve else kodlarına göre başarı durumunu ve bununla birlikte boş ve net sayılarını çıktı verir(TEST:çıktı kısmında görüleceği üzere).
 
 **Çıktılar:**
--
+-TEST: çıktı "Basari durumunuz IYI olarak olculmustur.Ayrica net sayiniz 11.75'dir ve bos sayiniz de 2'dir"     (çünkü 13-5/4=11.75'tir ve programdaki koşul karar yapıları 11.75 neti IYI kategorisine almaktadır,yani çıktı buna uygun."
 
 ## 3. Matematiksel Formüller
 
--
+-1)girilen doğru ve yanlış sayılarının uygunluğunu ölçerken kullandığımız :else if (ys+ds<0 || ys + ds >20)   ifadesi
+-2)int boss =20- (ys+ds) ifadesi
+-3)double nets = ds - (double)ys /4 ifadesi
 
+not:herhangi bir +/-/*// işareti olmadan sadece matematiksel operatör kullandığım ifadeleri dahil etmedim.
 ## 4. Sözde Kod (Pseudocode)
 
 ```
