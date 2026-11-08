@@ -28,9 +28,47 @@ not:herhangi bir +/-/*// işareti olmadan sadece matematiksel operatör kulland�
 ## 4. Sözde Kod (Pseudocode)
 
 ```
-1.
-2.
-3.
+1.output : "MERHABA!Sizden deneme sinav sonuclarini girmenizi istiyorum.Ilk önce dogru cevap sayinizi giriniz."
+2.input: tam sayı ds (değişken tanımlama +girdi)
+3.if (ds<0 ya da ds>20) ise 4'den devam et , else 5'den devam et.
+4.output "GECERSİZ DOGRU SAYISI!!!!!",BİTTİ.
+5.output "Simdi de yanlis sayinizi giriniz."
+6.input: tam sayı ys (değişken tanımlama +girdi) 
+7.if (ys>20 ya da ys<0) ise 8'den , else  9'dan devam et.
+8.output "GECERSİZ YANLIS SAYISI!!!!!",BİTTİ.
+9.else if  (ys+ds>20 ya da ys + ds <0) ise 10'dan , else 11'den devam et.
+10.output "Bu iki sayinin en az biri yanlis girilmistir cunku sayilarin toplami 20'den coktur. "
+11.int boss = 20 - (ys +ds)
+12.double nets =ds - (double)ys/4
+13.if (nets<=5) ise 14'den,else 15'den devam et.
+14.output: "Basari durumunuz ,GELISTIRILMELI olarak olculmustur."+ "Ayrica net sayiniz " + nets + "'dir ve bos sayiniz de "+ boss + "'dir"
+15.else if (nets >5 ve nets<=10) ise 16'dan ,else 17'den devam et.
+16.output:"Basari durumunuz ORTA olarak olculmustur."+ "Ayrica net sayiniz " + nets + "'dir ve bos sayiniz de "+ boss + "'dir"
+17.else if (nets >10 and nets <=15) ise 18'den , else 19'dan devam et.
+18.output:"Basari durumunuz IYI olarak olculmustur."+ "Ayrica net sayiniz " + nets + "'dir ve bos sayiniz de "+ boss + "'dir"
+19.else output:"Basari durumunuz COK IYI olarak olculmustur."+ "Ayrica net sayiniz " + nets + "'dir ve bos sayiniz de "+ boss + "'dir"BİTİR.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ```
 
 ## 5. Akış Şeması
